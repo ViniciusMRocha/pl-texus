@@ -8,9 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Look babe ! I did it. I am so happy to finally deploy the site
+          Travis CI is working
           <br />
-          <b>I love you Elizabeth Cole</b>
+          <b>Let's build something awesome</b>
         </p>
         <a
           className="App-link"
