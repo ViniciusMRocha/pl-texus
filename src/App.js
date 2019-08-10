@@ -1,28 +1,41 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Travis CI is working
-          <br />
-          <b>Let's build something awesome</b>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Router
+import { Router } from "@reach/router";
+
+//components
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+
+class App extends React.Component {
+  state = {};
+  render() {
+    return (
+      <Router>
+        <NotFound path="/404" default />
+        <Home path="/" />
+        <Login path="/login" />
+      </Router>
+    );
+  }
 }
 
 export default App;
+
+{
+  /* <Router>
+  <NotFound path="/404" default />
+  <Home path="/" />
+  <About path="/about" />
+  <Faq path="/faq" />
+  <NextDeferredIncomeAnnuity path="/nextdeferredincomeannuity" />
+  <Contact path="/contact" />
+  <TermsOfUse path="/terms" />
+  <PrivacyPolicy path="/privacy" />
+  <SocialMediaGuidelines path="/social" />
+</Router>; */
+}
+
+// import NotFound from './pages/NotFound';
+// import Home from './pages/Home';
