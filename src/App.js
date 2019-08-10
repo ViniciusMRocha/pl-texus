@@ -22,20 +22,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-{
-  /* <Router>
-  <NotFound path="/404" default />
-  <Home path="/" />
-  <About path="/about" />
-  <Faq path="/faq" />
-  <NextDeferredIncomeAnnuity path="/nextdeferredincomeannuity" />
-  <Contact path="/contact" />
-  <TermsOfUse path="/terms" />
-  <PrivacyPolicy path="/privacy" />
-  <SocialMediaGuidelines path="/social" />
-</Router>; */
-}
-
-// import NotFound from './pages/NotFound';
-// import Home from './pages/Home';
