@@ -1,0 +1,66 @@
+/***************************************/
+/*            Typography               */
+/***************************************/
+
+// main fonts
+$josefin: "Josefin Sans", sans-serif;
+$circular: "CircularStd", sans-serif;
+
+// Headers
+.txt_heading-xlarge {
+  font-family: $josefin;
+  font-size: calc(32px + 1.5vw + 0.5vmin);
+  font-weight: 600;
+  line-height: calc(36px + 2.5vw);
+}
+
+.txt_heading-large {
+  font-family: $josefin;
+  font-size: calc(28px + 1.5vw + 0.5vmin);
+  font-weight: 600;
+  line-height: calc(30px + 2.5vw);
+}
+
+.txt_heading-medium {
+  font-family: $josefin;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.txt_heading-small {
+  font-family: $josefin;
+  font-size: 24px;
+  // font-size: calc(26px + 0.5vw + 0.5vmin);
+  font-weight: 600;
+}
+
+.txt_subheading {
+  font-family: $josefin;
+  font-size: calc(26px);
+  font-weight: 600;
+}
+
+// Body
+
+.txt_body {
+  font-family: $circular;
+  font-size: calc(24px);
+}
+
+.txt_body-small {
+  font-family: $circular;
+  font-size: calc(18px);
+}
+
+.txt_body-xsmall {
+  font-family: $circular;
+  font-size: calc(12px);
+}
+
+// Footer
+.txt_footer {
+  font-family: $circular;
+  font-size: 10px;
+  color: #9a9c9f;
+  line-height: 20px;
+}

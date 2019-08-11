@@ -1,9 +1,16 @@
 import React from "react";
 
+//components
+import LoginCard from "../../components/LoginCard";
+
 class Login extends React.Component {
   state = {};
   render() {
-    return <h1>This is the Login Page</h1>;
+    return (
+      <div>
+        <LoginCard />
+      </div>
+    );
   }
 }
 

@@ -1,9 +1,15 @@
 import React from "react";
 
+//components
+
 class Home extends React.Component {
   state = {};
   render() {
-    return <h1>This is the home page</h1>;
+    return (
+      <div>
+        <div>Home Page</div>
+      </div>
+    );
   }
 }
 
