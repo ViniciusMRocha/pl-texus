@@ -36,8 +36,12 @@ $spacers: map-merge(
 // then import Bootstrap
 @import "bootstrap";
 
-body {
-  margin-top: 50px;
+.main {
+  margin-left: 160px;
+}
+
+.body {
+  margin-top: 0px;
   overflow-x: hidden;
   color: theme-color("primary-dark");
 }
