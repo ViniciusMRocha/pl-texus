@@ -5,7 +5,7 @@ import Button from "../Button";
 
 const LoginCard = props => {
   return (
-    <div className="container text-center py-2 border">
+    <div className="container text-center py-3 border">
       <div className="txt_heading-xlarge mb-5">Hello World</div>
       <Button buttonText="Log In" />
       <a href="/404" className="txt_body-xsmall">
